@@ -1,19 +1,23 @@
 ---
 name: User Story
-about: Template for a user story
+about: This template is for creating user stories
 title: ''
 labels: ''
 assignees: ''
+
 ---
 
-### As a
+**As a** [role]  
+ **I need** [function]  
+ **So that** [benefit]  
 
-### I need
+ ### Details and Assumptions
+ * [document what you know]
 
-### So that
+ ### Acceptance Criteria  
 
-### Acceptance Criteria
-
-- Given ...
-- When ...
-- Then ...
+ ```gherkin
+ Given [some context]
+ When [certain action is taken]
+ Then [the outcome of action is observed]
+ ```
